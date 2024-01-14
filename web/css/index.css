@@ -1,0 +1,135 @@
+body, html {
+    min-height: 600px;
+    min-width: 1000px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.app {
+    display: flex;
+}
+
+.left {
+    width: 10vw;
+    min-width: 200px;
+    height: 100vh;
+
+    background-color: #212643;
+    /*background-color: #2c0d08;*/
+}
+
+.left-logo {
+    height: 120px;
+    background: url("../img/logo.png") no-repeat center / 120px auto;
+}
+
+.left-item {
+    height: 56px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(33, 38, 68);
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.left-item:hover {
+    background-color: rgb(26, 30, 54);
+}
+
+.left-item-choice {
+
+    color: #fdce4a;
+}
+
+.right {
+    width: 90vw;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+.right-top {
+    background-color: #ffffff;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-top-box {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    color: #606266;
+    margin-right: 30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user-img-box {
+    width: 17px;
+    margin-left: 10px;
+}
+
+.right-center {
+    height: 85vh;
+}
+
+.right-center iframe {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.right-bottom {
+    height: 8vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.pop {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 100px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    color: #606266;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, 0.1);
+    cursor: pointer;
+}
+
+
+.pop-img {
+    width: 24px;
+    height: 24px;
+    color: #606266;
+    margin-right: 10px;
+}
+
+.dis {
+    display: none;
+}

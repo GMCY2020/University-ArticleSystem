@@ -1,0 +1,160 @@
+.art {
+    margin: 10px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.search, .title, .art-table-box, .page-choice-box {
+    margin: 10px;
+}
+
+.title {
+    font-size: 25px;
+    color: #232323;
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #909399;
+}
+
+.search input {
+    margin: 10px;
+}
+
+.search-form {
+    width: 600px;
+}
+
+.search .sub, .art-table-item button, .art-table-item .btn, .art-show-add, .artForm-item .btn {
+    background-color: #a0cfff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+.search .sub:hover, .art-table-item button:hover, .art-table-item .btn:hover, .art-show-add:hover, .artForm-item .btn:hover {
+    background-color: #409eff;
+}
+
+.art-table-box {
+    font-size: 14px;
+}
+
+.art-table {
+    width: 100%;
+}
+
+.art-table-title {
+    color: #909399;
+    height: 70px;
+}
+
+.art-table-item {
+    color: #606266;
+    height: 60px;
+}
+
+.art-table-item td {
+    border-top: 1px solid #ebeef5;
+}
+
+.page-choice-box, .page-choice {
+    display: flex;
+}
+
+.page-choice-box {
+    justify-content: space-between;
+}
+
+.art-show-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.art-show-add-img {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.formPop {
+    position: sticky;
+    top: 200px;
+    left: 30%;
+    width: fit-content;
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin-top: -200px;
+    color: #909399;
+    box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, 0.3);
+}
+
+.artForm-item {
+    padding: 10px;
+    display: flex;
+}
+
+.inp {
+    width: 200px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.btns {
+    justify-content: space-around;
+}
+
+.artForm-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.artForm-item .btn {
+    width: 30%;
+}
+
+.dis {
+    display: none;
+}
+
+.del {
+    background-color: rgba(255, 180, 180, 0.4);
+    color: red;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.del:hover {
+    background-color: rgba(255, 180, 180, 1);
+}
+
+.editBtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+form {
+    margin-bottom: 0;
+}

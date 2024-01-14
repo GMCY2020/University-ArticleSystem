@@ -1,0 +1,43 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.messagePop {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    padding: 10px;
+    border-radius: 4px;
+    animation: out 3s ease-out;
+}
+
+.success {
+    background-color: rgba(103, 194, 58, 0.1);
+    color: #67C23A;
+}
+
+.fail {
+    background-color: rgba(245, 108, 108, 0.1);
+    color: #f26b6b;
+}
+
+@keyframes out {
+    0% {
+        top: -50px;
+    }
+    20% {
+        top: 20px;
+    }
+    70% {
+        top: 20px;
+    }
+    100% {
+        top: -50px;
+    }
+}

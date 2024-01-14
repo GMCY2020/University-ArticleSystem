@@ -1,0 +1,101 @@
+.login {
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+}
+
+.login-left {
+    width: 50vw;
+    height: 100vh;
+    background: url('../img/logo2.png') no-repeat 60% center / 240px auto,
+    url('../img/login_bg.jpg') no-repeat center / cover;
+    border-radius: 0 20px 20px 0;
+}
+
+.login-right {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form-item {
+    border: 1px solid #dcdfe6;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+.login-form-item:hover, input:focus {
+    outline: 1px solid #a0cfff;
+}
+
+.login-form-item input {
+    border: none;
+    width: 100%;
+    height: 40px;
+}
+
+
+.login-form-item-img {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+    color: #606266;
+}
+
+
+.login-btn {
+    background-color: #a0cfff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 10px;
+    cursor: pointer;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background-color: #409eff;
+}
+
+.login-change {
+    margin-top: 20px;
+    color: #b1b3b8;
+    cursor: pointer;
+}
+
+.login-change:hover {
+    color: #606165;
+}
+
+.dis {
+    display: none;
+}
